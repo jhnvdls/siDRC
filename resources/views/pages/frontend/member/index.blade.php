@@ -42,7 +42,7 @@
                                     <a href="javascript:;"
                                         onclick="handle_open_modal('{{ route('member.show', $member->id) }}', '#customModal', 'GET')">
                                         <img src="{{ asset('images/members/' . $member->image) }}" alt="Images"
-                                            style="width: 100%; height: 300px">
+                                            style="width: 100%; height: 150px">
                                     </a>
                                 </div>
                                 <div class="team-content">
