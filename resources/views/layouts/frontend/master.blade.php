@@ -91,6 +91,10 @@
     </div>
     <!-- Search Modal End -->
 
+    <!--begin::Modals-->
+    @include('layouts.frontend.modal')
+    <!--end::Modals-->
+
     @include('layouts.frontend.script')
 
     @stack('custom-scripts')

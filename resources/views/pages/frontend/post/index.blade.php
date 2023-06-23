@@ -20,9 +20,6 @@
                 <div class="col-lg-5">
                     <div class="main-img text-right md-text-center">
                         <img src="{{ asset('images/blog.png') }}" alt="Images">
-                        {{-- <div class="main-img-bg1">
-                        <img src="" alt="Images">
-                    </div> --}}
                     </div>
                 </div>
             </div>

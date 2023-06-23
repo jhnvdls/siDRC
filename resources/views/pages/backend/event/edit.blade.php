@@ -113,7 +113,7 @@
                     <select name="status" class="form-select" data-control="select2" data-hide-search="true"
                         data-placeholder="Select an option">
                         <option value="">Select an option</option>
-                        <option value="publish" {{ $event->status == 'publish' ? 'selected' : '' }}>Publish
+                        <option value="publish" {{ $event->status == 'published' ? 'selected' : '' }}>Publish
                         </option>
                         <option value="draft" {{ $event->status == 'draft' ? 'selected' : '' }}>Draft</option>
                     </select>
@@ -156,10 +156,10 @@
                         <!--end::Label-->
                         <!--begin::Input-->
                         <input type="text" class="form-control form-control-solid" name="slug" placeholder="Slug"
-                            value="{{ $post->slug }}" />
+                            value="{{ $event->slug }}" />
                         <!--end::Input-->
                         <!--begin::Description-->
-                        <div class="text-muted fs-7">Enter the slug for the post.
+                        <div class="text-muted fs-7">Enter the slug for the event.
                         </div>
                         <!--end::Description-->
                     </div>
@@ -200,7 +200,9 @@
                         <label class="form-label">Content</label>
                         <!--end::Label-->
                         <!--begin::Editor-->
-                        <div id="content" name="content" class="min-h-200px mb-2"></div>
+                        <div id="content" name="content" class="min-h-200px mb-2">
+                            {!! $event->content !!}
+                        </div>
                         <input type="hidden" name="content" value="{{ $event->content }}" />
                         <!--end::Editor-->
                         <!--begin::Description-->

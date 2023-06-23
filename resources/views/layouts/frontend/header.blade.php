@@ -31,9 +31,9 @@
                                         <li class="{{ request()->is('posts') ? 'current-menu-item' : '' }}">
                                             <a href="{{ route('posts') }}">Blog</a>
                                         </li>
-                                        <li class="{{ request()->is('sponsor') ? 'current-menu-item' : '' }}">
+                                        {{-- <li class="{{ request()->is('sponsor') ? 'current-menu-item' : '' }}">
                                             <a href="{{ route('sponsor') }}">Sponsor</a>
-                                        </li>
+                                        </li> --}}
                                         <li class="{{ request()->is('events') ? 'current-menu-item' : '' }}">
                                             <a href="{{ route('events') }}">Event</a>
                                         </li>
@@ -98,9 +98,39 @@
                     <p>Suspendisse interdum consectetur libero id. Fermentum leo vel orci porta non. Euismod
                         viverra nibh cras pulvinar suspen.</p>
                 </div>
-                <div class="canvas-contact">
-                    <div class="address-area">
-                        <h2 class="widget-title">Get In Touch</h2>
+                <div class="canvas-contact rs-contact contact-style2 contact-modfiy5">
+                    <div class="content-wrap">
+                        <h2 class="widget-title">Kritik dan Saran</h2>
+                        <form id="contact-form" method="post" action="mailer.php">
+                            <fieldset>
+                                <div class="row">
+                                    <div class="col-lg-12 mb-30">
+                                        <label>Name</label>
+                                        <input class="from-control" type="text" id="name" name="name"
+                                            placeholder="Enter Your name" required="">
+                                    </div>
+                                    <div class="col-lg-12 mb-30">
+                                        <label>Email</label>
+                                        <input class="from-control" type="text" id="email" name="email"
+                                            placeholder="Enter your email address" required="">
+                                    </div>
+                                    <div class="col-lg-12 mb-30">
+                                        <label> How can we help you?</label>
+                                        <textarea class="from-control" id="message" name="message" placeholder="Type your messags here" required=""></textarea>
+                                    </div>
+                                </div>
+                                <div class="btn-part">
+                                    <div class="form-group mb-0">
+                                        <p class="submit-btn submit-stle2">
+                                            <input type="submit" value="Submit Now">
+                                        </p>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+
+                    {{-- <h2 class="widget-title">Get In Touch</h2>
                         <div class="address-list">
                             <div class="info-icon">
                                 <i class="fi fi-rr-envelope-plus"></i>
@@ -127,15 +157,7 @@
                                 <h4 class="title">Location</h4>
                                 <em>Riverside 255, San Francisco, USA</em>
                             </div>
-                        </div>
-                    </div>
-                    <ul class="social">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                    </ul>
+                        </div> --}}
                 </div>
             </div>
         </nav>
@@ -164,9 +186,9 @@
                 <li class="{{ request()->is('posts') ? 'current-menu-item' : '' }}">
                     <a href="{{ route('posts') }}">Blog</a>
                 </li>
-                <li class="{{ request()->is('sponsor') ? 'current-menu-item' : '' }}">
+                {{-- <li class="{{ request()->is('sponsor') ? 'current-menu-item' : '' }}">
                     <a href="{{ route('sponsor') }}">Sponsor</a>
-                </li>
+                </li> --}}
                 <li class="{{ request()->is('events') ? 'current-menu-item' : '' }}">
                     <a href="{{ route('events') }}">Event</a>
                 </li>

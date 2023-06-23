@@ -73,7 +73,14 @@
     </div>
     <!-- Services Section End -->
 
-    {{-- <!-- About Start -->
+    <div class="rs-contact contact-style2 contact-modfiy5 pt-130 md-pt-80">
+        <div class="container">
+            <div class="map-canvas pt-130 md-pt-80">
+                <iframe
+                    src="https://maps.google.com/maps?q=rstheme&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"></iframe>
+            </div>
+        </div>
+        {{-- <!-- About Start -->
     <div class="rs-about about-style1 pt-150 pb-150 md-pt-80 md-pb-80">
         <div class="container">
             <div class="row y-middle">
@@ -141,4 +148,4 @@
         </div>
     </div>
     <!-- About End --> --}}
-@endsection
+    @endsection

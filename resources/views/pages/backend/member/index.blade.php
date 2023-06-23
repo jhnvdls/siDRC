@@ -97,25 +97,37 @@
                                     </div>
                                 </td>
                                 <!--end::Checkbox-->
-                                <!--begin::Title=-->
+                                <!--begin::Name=-->
                                 <td>
-                                    <span class="text-gray-800 fw-bolder d-block fs-6">{{ $member->title }}</span>
+                                    <div class="d-flex align-items-center">
+                                        <div class="symbol symbol-45px me-5">
+                                            <img src="{{ asset('images/members/' . $member->image) }}" alt="image" />
+                                        </div>
+                                        <div class="d-flex justify-content-start flex-column">
+                                            <a href="{{ route('backend.members.show', $member->id) }}"
+                                                class="text-dark fw-bolder text-hover-primary fs-6">{{ $member->name }}</a>
+                                            <span
+                                                class="text-muted fw-bold text-muted d-block fs-7">{{ $member->email }}</span>
+                                        </div>
+                                    </div>
                                 </td>
-                                <!--end::Title=-->
-                                <!--begin::Slug=-->
+                                <!--end::Name=-->
+                                <!--begin::Department=-->
                                 <td>
-                                    <span class="text-gray-800 fw-bolder d-block fs-6">{{ $member->start_date }}</span>
+                                    <div class="d-flex justify-content-start flex-column">
+                                        <span
+                                            class="text-muted fw-bold text-muted d-block fs-7">{{ $member->departement->name }}</span>
+                                    </div>
                                 </td>
-                                <!--end::Slug=-->
-                                <!--begin::Image=-->
+                                <!--end::Department=-->
+                                <!--begin::Position=-->
                                 <td>
-                                    <span class="text-gray-800 fw-bolder d-block fs-6">{{ $member->end_date }}</span>
+                                    <div class="d-flex justify-content-start flex-column">
+                                        <span
+                                            class="text-muted fw-bold text-muted d-block fs-7">{{ $member->position->name }}</span>
+                                    </div>
                                 </td>
-                                <!--end::Image=-->
-                                <!--begin::Status=-->
-                                <td>
-                                    <span class="text-gray-800 fw-bolder d-block fs-6">{{ $member->status }}</span>
-                                </td>
+                                <!--end::Position=-->
                                 <!--begin::Action=-->
                                 <td class="text-end">
                                     <a href="#" class="btn btn-sm btn-light btn-active-light-primary"
@@ -136,8 +148,7 @@
                                         data-kt-menu="true">
                                         <!--begin::Menu item-->
                                         <div class="menu-item px-3">
-                                            <a href="{{ route('admin.members.edit', $member->id) }}"
-                                                class="menu-link px-3">Edit</a>
+                                            <a href="javascript:;" class="menu-link px-3">Edit</a>
                                         </div>
                                         <!--end::Menu item-->
                                         <!--begin::Menu item-->

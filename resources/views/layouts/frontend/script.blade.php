@@ -28,3 +28,4 @@
 <script src="{{ asset('frontend/js/contact.form.js') }}"></script>
 <!-- main js -->
 <script src="{{ asset('frontend/js/main.js') }}"></script>
+<script src="{{ asset('js/method.js') }}"></script>

@@ -4,9 +4,10 @@ namespace App\Http\Controllers\Backend;
 
 use App\Models\Member;
 use App\Models\Position;
-use App\Models\Departement;
+use App\Models\Department;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Validator;
 
 class MemberController extends Controller
 {
@@ -24,7 +25,7 @@ class MemberController extends Controller
      */
     public function create()
     {
-        $departments = Departement::all();
+        $departments = Department::all();
         $positions = Position::all();
         return view('pages.backend.member.create', compact('departments', 'positions'));
     }
@@ -34,7 +35,7 @@ class MemberController extends Controller
      */
     public function store(Request $request)
     {
-        $request->validate([
+        $validator = Validator::make($request->all(), [
             'name' => 'required|string|max:255',
             'nim' => 'required|string|max:255|unique:members,nim',
             'email' => 'required|string|max:255|unique:members,email',
@@ -42,7 +43,17 @@ class MemberController extends Controller
             'department_id' => 'required|exists:departments,id',
             'position_id' => 'required|exists:positions,id',
             'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+            'linkedin' => 'nullable|string|max:255',
+            'instagram' => 'nullable|string|max:255',
+            'github' => 'nullable|string|max:255',
         ]);
+
+        if ($validator->fails()) {
+            return response()->json([
+                'status' => 'error',
+                'message' => $validator->errors()->first()
+            ]);
+        }
 
         $image = $request->file('image');
         $image_name = time() . '.' . $image->getClientOriginalExtension();
@@ -56,11 +67,15 @@ class MemberController extends Controller
             'department_id' => $request->department_id,
             'position_id' => $request->position_id,
             'image' => $image_name,
+            'linkedin' => $request->linkedin,
+            'instagram' => $request->instagram,
+            'github' => $request->github,
         ]);
 
         return response()->json([
             'status' => 'success',
-            'message' => 'Member created successfully'
+            'message' => 'Member created successfully',
+            'redirect' => route('backend.members.index')
         ]);
     }
 
@@ -85,7 +100,56 @@ class MemberController extends Controller
      */
     public function update(Request $request, Member $member)
     {
-        //
+        $validator = Validator::make($request->all(), [
+            'name' => 'required|string|max:255',
+            'nim' => 'required|string|max:255|unique:members,nim,' . $member->id,
+            'email' => 'required|string|max:255|unique:members,email,' . $member->id,
+            'phone' => 'required|string|max:255',
+            'department_id' => 'required|exists:departments,id',
+            'position_id' => 'required|exists:positions,id',
+            'image' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+            'linkedin' => 'nullable|string|max:255',
+            'instagram' => 'nullable|string|max:255',
+            'github' => 'nullable|string|max:255',
+        ]);
+
+        if ($validator->fails()) {
+            return response()->json([
+                'status' => 'error',
+                'message' => $validator->errors()->first()
+            ]);
+        }
+
+        if ($request->hasFile('image')) {
+            $path = public_path('images/members/' . $member->image);
+            if (file_exists($path)) {
+                unlink($path);
+            }
+            $image = $request->file('image');
+            $image_name = time() . '.' . $image->getClientOriginalExtension();
+            $image->move(public_path('images/members'), $image_name);
+        } else {
+            $image_name = $member->image;
+        }
+
+        $member->update([
+            'name' => $request->name,
+            'nim' => $request->nim,
+            'email' => $request->email,
+            'phone' => $request->phone,
+            'departement_id' => $request->department_id,
+            'position_id' => $request->position_id,
+            'image' => $image_name,
+            'linkedin' => $request->linkedin,
+            'instagram' => $request->instagram,
+            'github' => $request->github,
+        ]);
+
+        return response()->json([
+            'status' => 'success',
+            'message' => 'Member updated successfully',
+            'redirect' => route('backend.members.index')
+        ]);
     }
 
     /**

@@ -34,7 +34,7 @@
 @section('title', 'Edit Post')
 @section('content')
     <form id="edit_post_form" class="form d-flex flex-column flex-lg-row"
-        data-kt-redirect="{{ route('admin.posts.index') }}" action="{{ route('admin.posts.update', $post->id) }}"
+        data-kt-redirect="{{ route('backend.posts.index') }}" action="{{ route('backend.posts.update', $post->id) }}"
         method="PUT" enctype="multipart/form-data">
         <!--begin::Aside column-->
         <div class="d-flex flex-column gap-7 gap-lg-10 w-100 w-lg-300px mb-7 me-lg-10">
@@ -203,7 +203,7 @@
             <!--end::General options-->
             <div class="d-flex justify-content-end">
                 <!--begin::Button-->
-                <a href="{{ route('admin.posts.index') }}" class="btn btn-light me-5">Cancel</a>
+                <a href="{{ route('backend.posts.index') }}" class="btn btn-light me-5">Cancel</a>
                 <!--end::Button-->
                 <!--begin::Button-->
                 <button type="submit" id="edit_post_submit" class="btn btn-primary" data-kt-element="submit">

@@ -5,7 +5,7 @@ namespace Database\Seeders;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
-class DepartementSeeder extends Seeder
+class DepartmentSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -19,7 +19,7 @@ class DepartementSeeder extends Seeder
         ];
 
         foreach ($departments as $department) {
-            \App\Models\Departement::create([
+            \App\Models\Department::create([
                 'name' => $department,
             ]);
         }

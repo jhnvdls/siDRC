@@ -53,3 +53,16 @@ function handle_confirm(title, confirm_title, deny_title, method, route) {
         }
     });
 }
+function handle_open_modal(url, modal, method) {
+    $.ajax({
+        type: method,
+        url: url,
+        success: function (html) {
+            $(modal).html(html);
+            $(modal).modal('show');
+        },
+        error: function () {
+            $(content).html('<h3>Ajax Bermasalah !!!</h3>')
+        },
+    });
+}

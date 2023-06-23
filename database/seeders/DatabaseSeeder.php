@@ -33,9 +33,9 @@ class DatabaseSeeder extends Seeder
         $this->call([
             PostSeeder::class,
             EventSeeder::class,
-            DepartementSeeder::class,
+            DepartmentSeeder::class,
             PositionSeeder::class,
-
+            MemberSeeder::class,
         ]);
     }
 }
