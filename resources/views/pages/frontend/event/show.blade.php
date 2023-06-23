@@ -20,7 +20,7 @@
                     <div class="blog-details">
                         <div class="bs-img mb-50">
                             <a href="#">
-                                <img src="{{ asset($event->image) }}" width="100%" alt="Images"></a>
+                                <img src="{{ asset('images/events/' . $event->image) }}" width="100%" alt="Images"></a>
                             </a>
                         </div>
                         <div class="blog-full">
