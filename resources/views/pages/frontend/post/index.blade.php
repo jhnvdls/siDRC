@@ -37,7 +37,7 @@
                                 <div class="blog-item">
                                     <div class="blog-img">
                                         <a href="{{ route('posts.show', $post->slug) }}">
-                                            <img src="{{ asset($post->image) }}" alt="Images"></a>
+                                            <img src="{{ asset('images/posts/' . $post->image) }}" alt="Images"></a>
                                     </div>
                                     <div class="blog-content">
                                         <div class="blog-meta">
