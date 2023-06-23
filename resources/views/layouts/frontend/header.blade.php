@@ -101,22 +101,22 @@
                 <div class="canvas-contact rs-contact contact-style2 contact-modfiy5">
                     <div class="content-wrap">
                         <h2 class="widget-title">Kritik dan Saran</h2>
-                        <form id="contact-form" method="post" action="mailer.php">
+                        <form id="contact-form" method="post" action="{{ route('message') }}">
                             <fieldset>
                                 <div class="row">
                                     <div class="col-lg-12 mb-30">
                                         <label>Name</label>
                                         <input class="from-control" type="text" id="name" name="name"
-                                            placeholder="Enter Your name" required="">
+                                            placeholder="Enter Your name">
                                     </div>
                                     <div class="col-lg-12 mb-30">
                                         <label>Email</label>
                                         <input class="from-control" type="text" id="email" name="email"
-                                            placeholder="Enter your email address" required="">
+                                            placeholder="Enter your email address">
                                     </div>
                                     <div class="col-lg-12 mb-30">
                                         <label> How can we help you?</label>
-                                        <textarea class="from-control" id="message" name="message" placeholder="Type your messags here" required=""></textarea>
+                                        <textarea class="from-control" id="message" name="message" placeholder="Type your messags here"></textarea>
                                     </div>
                                 </div>
                                 <div class="btn-part">

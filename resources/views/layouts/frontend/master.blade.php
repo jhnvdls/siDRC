@@ -38,6 +38,7 @@
     <!-- This stylesheet dynamically changed from style.less -->
     <!-- responsive css -->
     <link rel="stylesheet" type="text/css" href="{{ asset('frontend/css/responsive.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/sweetalert.css') }}" type="text/css" />
 
     @stack('custom-styles')
 </head>

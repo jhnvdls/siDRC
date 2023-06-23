@@ -5,6 +5,7 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\Backend\PostController;
 use App\Http\Controllers\Backend\EventController;
 use App\Http\Controllers\Backend\MemberController;
+use App\Http\Controllers\Backend\MessageController;
 use App\Http\Controllers\Backend\SettingController;
 use App\Http\Controllers\Backend\DashboardController;
 
@@ -20,6 +21,10 @@ Route::name('backend.')->group(function () {
 
     // Members
     Route::resource('members', MemberController::class);
+
+    // Messages
+    Route::get('messages', [MessageController::class, 'index'])->name('messages.index');
+    Route::get('messages/{message}', [MessageController::class, 'show'])->name('messages.show');
 
     // Settings
     Route::prefix('settings')->name('settings.')->group(function () {

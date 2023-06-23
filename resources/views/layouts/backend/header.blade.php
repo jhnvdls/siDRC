@@ -77,6 +77,16 @@
                     <!--begin:Menu item-->
                     <div class="menu-item">
                         <!--begin:Menu link-->
+                        <a class="menu-link {{ request()->is('backend/messages') ? 'active' : '' }}"
+                            href="{{ route('backend.messages.index') }}">
+                            <span class="menu-title">Messages</span>
+                        </a>
+                        <!--end:Menu link-->
+                    </div>
+                    <!--end:Menu item-->
+                    <!--begin:Menu item-->
+                    <div class="menu-item">
+                        <!--begin:Menu link-->
                         <a class="menu-link {{ request()->is('backend/settings') ? 'active' : '' }}"
                             href="{{ route('backend.settings.index') }}">
                             <span class="menu-title">Settings</span>

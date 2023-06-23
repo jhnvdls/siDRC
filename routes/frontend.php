@@ -19,5 +19,7 @@ Route::get('posts/{slug}', [PostController::class, 'show'])->name('posts.show');
 Route::get('events', [EventController::class, 'index'])->name('events');
 Route::get('events/{slug}', [EventController::class, 'show'])->name('events.show');
 
+Route::post('message', [FrontController::class, 'message'])->name('message');
+
 Route::get('login', [AuthController::class, 'login'])->name('index');
 Route::post('login', [AuthController::class, 'do_login'])->name('login');

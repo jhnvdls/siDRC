@@ -31,11 +31,11 @@ class DatabaseSeeder extends Seeder
         ]);
 
         $this->call([
-            PostSeeder::class,
-            EventSeeder::class,
+            // PostSeeder::class,
+            // EventSeeder::class,
             DepartmentSeeder::class,
             PositionSeeder::class,
-            MemberSeeder::class,
+            // MemberSeeder::class,
         ]);
     }
 }
