@@ -143,6 +143,9 @@
                                                 mengadopsi MSL Rules and Regulation
                                             </p>
 
+
+
+
                                         </div>
                                     </div>
                                 </div>
@@ -323,7 +326,7 @@
                         </div>
                     </div>
                     <div class="tab-pane fade" id="kbsrih">
-                        <div class="rs-about about-style1 pt-160 pb-160 md-pt-80 md-pb-75">
+                        <div class="rs-about about-style1 pt-160 pb-60 md-pt-80 md-pb-30">
                             <div class="container">
                                 <div class="row y-middle">
                                     <div class="col-lg-6 md-mb-50">
@@ -367,6 +370,101 @@
         </div>
     </div>
     <!-- Pricing End -->
+
+    <!-- Testimonial Section Start -->
+			<div id="rs-testimonial" class="rs-testimonial testimonial-style2 testimonial-modify1 testi-yellow-modify1 pt-120 pb-120 md-pt-60 md-pb-75">
+			    <div class="container custom"> 
+			    	<div class="sec-title2 text-center mb-55">
+			    		<h2 class="title title4">
+			    			What people’s about<br>saying!
+			    		</h2>
+			    	</div>
+			        <div class="rs-carousel owl-carousel" data-loop="true" data-items="3" data-margin="30" data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800" data-dots="true" data-nav="false" data-nav-speed="false" data-center-mode="false" data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="false" data-ipad-device="2" data-ipad-device-nav="false" data-ipad-device-dots="true" data-ipad-device2="2" data-ipad-device-nav2="false" data-ipad-device-dots2="true" data-md-device="3" data-md-device-nav="false" data-md-device-dots="true">
+			            <div class="testimonial-item">
+			                <div class="testi-content">
+			                    <div class="image-wrap">
+			                    	<img src="frontend/images/testimonial/style1/testi1.png" alt="Testimonial">
+			                    </div>
+			                    <div class="testi-information">
+			                    	<div class="testi-name">Billu Gol</div>
+			                    	<span class="testi-title">CEO, Agrok Inc.</span>
+			                    </div>
+			                </div>
+			                <div class="item-content-basic">
+			                	<span>
+			                		<img class="normal-img" src="frontend/images/testimonial/style1/ig.png" alt="Testimonial">
+			                		<a href="https://www.instagram.com/" target="_blank">
+			                		<img class="hover-logo" src="frontend/images/testimonial/style1/ig2.png" alt="Testimonial">
+                                </a>
+			                	</span>
+			                	<p>I love your system. Agency is both attractive and highly adaptable. Man, this thing is getting better and better as I learn more about it. I am so pleased with this product.</p>
+			                </div>
+			            </div>
+			            <div class="testimonial-item">
+			                <div class="testi-content">
+			                    <div class="image-wrap">
+			                    	<img src="frontend/images/testimonial/style1/testi2.png" alt="Testimonial">
+			                    </div>
+			                    <div class="testi-information">
+			                    	<div class="testi-name">Ani Jhon</div>
+			                    	<span class="testi-title">CEO, Apce.co</span>
+			                    </div>
+			                </div>
+			                <div class="item-content-basic">
+			                	<span>
+                                
+                                <img class="normal-img" src="frontend/images/testimonial/style1/ig.png" alt="Testimonial">
+                                <a href="https://www.instagram.com/" target="_blank">
+			                		<a href="https://www.instagram.com/" target="_blank">
+			                		<img class="hover-logo" src="frontend/images/testimonial/style1/ig2.png" alt="Testimonial">
+                                </a>
+                                </a>
+			                	</span>
+			                	<p>I love your system. Agency is both attractive and highly adaptable. Man, this thing is getting better and better as I learn more about it. I am so pleased with this product.</p>
+			                </div>
+			            </div>
+			            <div class="testimonial-item">
+			                <div class="testi-content">
+			                    <div class="image-wrap">
+			                    	<img src="frontend/images/testimonial/style1/testi3.png" alt="Testimonial">
+			                    </div>
+			                    <div class="testi-information">
+			                    	<div class="testi-name">Mark Agroiks</div>
+			                    	<span class="testi-title">CEO, Agrok Inc.</span>
+			                    </div>
+			                </div>
+			                <div class="item-content-basic">
+			                	<span>
+			                		<img class="normal-img" src="frontend/images/testimonial/style1/ig.png" alt="Testimonial">
+			                		<a href="https://www.instagram.com/" target="_blank">
+			                		<img class="hover-logo" src="frontend/images/testimonial/style1/ig2.png" alt="Testimonial">
+                                </a>
+			                	</span>
+			                	<p>I love your system. Agency is both attractive and highly adaptable. Man, this thing is getting better and better as I learn more about it. I am so pleased with this product.</p>
+			                </div>
+			            </div>
+			            <div class="testimonial-item">
+			                <div class="testi-content">
+			                    <div class="image-wrap">
+			                    	<img src="frontend/images/testimonial/style1/testi2.png" alt="Testimonial">
+			                    </div>
+			                    <div class="testi-information">
+			                    	<div class="testi-name">James Can</div>
+			                    	<span class="testi-title">CEO, Agrok Inc.</span>
+			                    </div>
+			                </div>
+			                <div class="item-content-basic">
+			                	<span>
+			                		<img class="normal-img" src="frontend/images/testimonial/style1/ig.png" alt="Testimonial">
+			                		<a href="https://www.instagram.com/" target="_blank">
+			                		<img class="hover-logo" src="frontend/images/testimonial/style1/ig2.png" alt="Testimonial">
+                                </a>
+			                	</span>
+			                	<p>I love your system. Agency is both attractive and highly adaptable. Man, this thing is getting better and better as I learn more about it. I am so pleased with this product.</p>
+			                </div>
+			            </div>
+			        </div>
+			<!-- Testimonial Section End -->
 
     <!-- Testimonial Section Start -->
     <div id="rs-testimonial" class="rs-testimonial testimonial-style1 pt-153 pb-100 md-pt-80 md-pb-50">
