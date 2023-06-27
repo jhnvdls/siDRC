@@ -1,3 +1,8 @@
+
+The code you provided is missing the part where the modals are defined. Here's the corrected code that includes the modals:
+
+html
+Copy code
 <!DOCTYPE html>
 <html lang="en">
 
@@ -41,12 +46,10 @@
     <link rel="stylesheet" href="{{ asset('css/sweetalert.css') }}" type="text/css" />
 
     <!-- Modal -->
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-    <!-- Bootstrap JavaScript library -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+    <!-- Include necessary CSS and JavaScript libraries -->
+    {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css"> --}}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>    
 
     @stack('custom-styles')
 </head>
