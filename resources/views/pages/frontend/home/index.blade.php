@@ -98,7 +98,7 @@
         </div>
         <div class="container">
             <!-- pils -->
-            <ul class="nav nav-pills">
+            <ul class="nav nav-pills justify-content-center">
                 <li class="nav-item">
                     <a href="#kbsrib" class="nav-link active" data-bs-toggle="pill">KRSBI beroda</a>
                 </li>
@@ -401,25 +401,23 @@
                                         <div class="services-item">
                                             <div class="services-wrap">
                                                 <div class="services-img">
-                                                    <img src="{{ asset('images/Logo-Inalum-MIND-ID.png') }}" alt="Images" data-toggle="modal" data-target="#inalumModal">
+                                                    <img src="{{ asset('images/inalum.png') }}" alt="Images" data-toggle="modal" data-target="#inalumModal">
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>                              
-                            </div>
-                            <div class="row">
+                                </div>
                                 <div class="col-lg-3 col-md-6 mb-40">
                                     <div class="card">
                                         <div class="services-item">
                                             <div class="services-wrap">
                                                 <div class="services-img">
-                                                    <img style="margin-top: -5px; width: 50%" src="{{ asset('images/hutahaean.png') }}" alt="Images" data-toggle="modal" data-target="#hutahaeanModal">
+                                                    <img src="{{ asset('images/hutahaean.png') }}" alt="Images" data-toggle="modal" data-target="#hutahaeanModal">
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>  
+                                </div>                               
                             </div>
 			           		</div>
 			           		<div class="col-lg-5">
@@ -574,9 +572,9 @@
 			                </div>
 			                <div class="item-content-basic">
 			                	<span>
-			                		<img class="normal-img" src="frontend/images/testimonial/style1/ig.png" alt="Testimonial">
-			                		<a href="https://www.instagram.com/" target="_blank">
-			                		<img class="hover-logo" src="frontend/images/testimonial/style1/ig2.png" alt="Testimonial">
+			                		<img class="normal-img" src="frontend/images/testimonial/style1/linkedin.png" alt="Testimonial">
+			                		<a href="https://id.linkedin.com/" target="_blank">
+			                		<img class="hover-logo" src="frontend/images/testimonial/style1/linkedin2.png" alt="Testimonial">
                                 </a>
 			                	</span>
 			                	<p>I love your system. Agency is both attractive and highly adaptable. Man, this thing is getting better and better as I learn more about it. I am so pleased with this product.</p>
@@ -595,11 +593,9 @@
 			                <div class="item-content-basic">
 			                	<span>
                                 
-                                <img class="normal-img" src="frontend/images/testimonial/style1/ig.png" alt="Testimonial">
-                                <a href="https://www.instagram.com/" target="_blank">
-			                		<a href="https://www.instagram.com/" target="_blank">
-			                		<img class="hover-logo" src="frontend/images/testimonial/style1/ig2.png" alt="Testimonial">
-                                </a>
+                                <img class="normal-img" src="frontend/images/testimonial/style1/linkedin.png" alt="Testimonial">
+			                		<a href="https://id.linkedin.com//" target="_blank">
+			                		<img class="hover-logo" src="frontend/images/testimonial/style1/linkedin2.png" alt="Testimonial">
                                 </a>
 			                	</span>
 			                	<p>I love your system. Agency is both attractive and highly adaptable. Man, this thing is getting better and better as I learn more about it. I am so pleased with this product.</p>
@@ -617,9 +613,9 @@
 			                </div>
 			                <div class="item-content-basic">
 			                	<span>
-			                		<img class="normal-img" src="frontend/images/testimonial/style1/ig.png" alt="Testimonial">
-			                		<a href="https://www.instagram.com/" target="_blank">
-			                		<img class="hover-logo" src="frontend/images/testimonial/style1/ig2.png" alt="Testimonial">
+			                		<img class="normal-img" src="frontend/images/testimonial/style1/linkedin.png" alt="Testimonial">
+			                		<a href="https://id.linkedin.com//" target="_blank">
+			                		<img class="hover-logo" src="frontend/images/testimonial/style1/linkedin2.png" alt="Testimonial">
                                 </a>
 			                	</span>
 			                	<p>I love your system. Agency is both attractive and highly adaptable. Man, this thing is getting better and better as I learn more about it. I am so pleased with this product.</p>
@@ -637,9 +633,9 @@
 			                </div>
 			                <div class="item-content-basic">
 			                	<span>
-			                		<img class="normal-img" src="frontend/images/testimonial/style1/ig.png" alt="Testimonial">
-			                		<a href="https://www.instagram.com/" target="_blank">
-			                		<img class="hover-logo" src="frontend/images/testimonial/style1/ig2.png" alt="Testimonial">
+			                		<img class="normal-img" src="frontend/images/testimonial/style1/linkedin.png" alt="Testimonial">
+			                		<a href="https://id.linkedin.com/" target="_blank">
+			                		<img class="hover-logo" src="frontend/images/testimonial/style1/linkedin2.png" alt="Testimonial">
                                 </a>
 			                	</span>
 			                	<p>I love your system. Agency is both attractive and highly adaptable. Man, this thing is getting better and better as I learn more about it. I am so pleased with this product.</p>
