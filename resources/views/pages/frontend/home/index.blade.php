@@ -99,6 +99,7 @@
         <div class="container">
             <!-- pils -->
             <ul class="nav nav-pills justify-content-center">
+            <ul class="nav nav-pills justify-content-center">
                 <li class="nav-item">
                     <a href="#kbsrib" class="nav-link active" data-bs-toggle="pill">KRSBI beroda</a>
                 </li>
