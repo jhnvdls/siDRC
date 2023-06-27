@@ -463,7 +463,8 @@
 			                	<p>I love your system. Agency is both attractive and highly adaptable. Man, this thing is getting better and better as I learn more about it. I am so pleased with this product.</p>
 			                </div>
 			            </div>
-			        </div>
+                    </div>
+			    </div>
 			<!-- Testimonial Section End -->
 
     <!-- Testimonial Section Start -->
