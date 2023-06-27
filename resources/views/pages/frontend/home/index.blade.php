@@ -370,8 +370,7 @@
         </div>
     </div>
     <!-- Pricing End -->
-
-			<!-- Breadcrumbs Start -->
+    			<!-- Breadcrumbs Start -->
 			<div class="rs-breadcrumbs img4">
 			    <div class="container">
 			        <div class="breadcrumbs-inner">
@@ -385,36 +384,42 @@
 			           			</div>
                                 <div class="row">
                                    <!-- Images -->
-                <div class="col-lg-3 col-md-6 mb-40">
-                    <div class="services-item">
-                        <div class="services-wrap">
-                            <div class="services-img">
-                                <img src="{{ asset('images/tpl.png') }}" alt="Images" data-toggle="modal" data-target="#tplModal">
+                                   <div class="col-lg-3 col-md-6 mb-40">
+                                    <div class="card">
+                                        <div class="services-item">
+                                            <div class="services-wrap">
+                                                <div class="services-img">
+                                                    <img src="{{ asset('images/tpl.png') }}" alt="Images" data-toggle="modal" data-target="#tplModal">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-lg-3 col-md-6 mb-40">
+                                    <div class="card">
+                                        <div class="services-item">
+                                            <div class="services-wrap">
+                                                <div class="services-img">
+                                                    <img src="{{ asset('images/Logo-Inalum-MIND-ID.png') }}" alt="Images" data-toggle="modal" data-target="#inalumModal">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>                              
                             </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 mb-40">
-                    <div class="services-item">
-                        <div class="services-wrap">
-                            <div class="services-img">
-                                <img src="{{ asset('images/Logo-Inalum-MIND-ID.png') }}" alt="Images" data-toggle="modal" data-target="#inalumModal">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 mb-40">
-                    <div class="services-item">
-                        <div class="services-wrap">
-                            <div class="services-img">
-                                <img style="margin-top: -20px" src="{{ asset('images/hutahaean.png') }}" width="60%" height="90%" alt="Images" data-toggle="modal" data-target="#hutahaeanModal">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+                            <div class="row">
+                                <div class="col-lg-3 col-md-6 mb-40">
+                                    <div class="card">
+                                        <div class="services-item">
+                                            <div class="services-wrap">
+                                                <div class="services-img">
+                                                    <img style="margin-top: -5px; width: 50%" src="{{ asset('images/hutahaean.png') }}" alt="Images" data-toggle="modal" data-target="#hutahaeanModal">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>  
                             </div>
 			           		</div>
 			           		<div class="col-lg-5">
@@ -514,6 +519,28 @@
                 margin-left: auto;
                 margin-right: auto;
             }
+            .card {
+                padding: 10px;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+                transition: 0.3s;
+            }
+
+            .card:hover {
+                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            }
+
+            .services-img {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .services-img img {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+            }
         </style>
         
         
@@ -526,8 +553,6 @@
                 });
             });
             </script>
-            
-    
     <!-- Testimonial Section Start -->
 			<div id="rs-testimonial" class="rs-testimonial testimonial-style2 testimonial-modify1 testi-yellow-modify1 pt-120 pb-120 md-pt-60 md-pb-75">
 			    <div class="container custom"> 
