@@ -28,6 +28,10 @@ class DatabaseSeeder extends Seeder
             'site_logo' => 'logo.png',
             'site_favicon' => 'favicon.png',
             'site_email' => 'help@gmail.com',
+            'visi_logo' => 'visi.png',
+            'visi' => 'Menjadi manusia yang bisa berbakti dan membahagiakan orang tua dengan mendapatkan prestasi juara 1 di bidang keilmuan jurusan.',
+            'misi_logo' => 'misi.png',
+            'misi' => 'Belajar setiap hari bukan menggunakan prinsip kebut semalam. Selalu mengulang dan mempelajari materi yang disampaikan dosen. Konsultasi ke dosen pembimbing mengenai sistem belajar yang baik atau meminta saran ketika dalam kesulitan belajar. Aktif mencari informasi lomba yang ada di internet.',
         ]);
 
         $this->call([

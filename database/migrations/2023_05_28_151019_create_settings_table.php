@@ -17,6 +17,11 @@ return new class extends Migration
             $table->string('site_logo')->nullable();
             $table->string('site_favicon')->nullable();
             $table->string('site_email')->nullable();
+            $table->string('visi_logo')->nullable();
+            $table->longText('visi')->nullable();
+            $table->string('misi_logo')->nullable();
+            $table->longText('misi')->nullable();
+
             $table->timestamps();
         });
     }

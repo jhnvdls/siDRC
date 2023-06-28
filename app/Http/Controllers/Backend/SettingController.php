@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Backend;
 
 use App\Models\User;
 use App\Models\Setting;
+use App\Models\Drc;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Artesaos\SEOTools\Facades\JsonLd;
@@ -38,6 +39,10 @@ class SettingController extends Controller
             'site_favicon' => 'file|mimes:jpeg,png,jpg,gif,svg,ico|max:2048',
             'site_name' => 'required',
             'site_email' => 'required|email:rfc,dns',
+            'visi_logo' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+            'misi_logo' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+            'visi' => 'required',
+            'misi' => 'required',
         ]);
 
         if ($validator->fails()) {
@@ -71,9 +76,33 @@ class SettingController extends Controller
             $setting->site_favicon = $favicon_name;
         }
 
+        if ($request->hasFile('visi_logo')) {
+            $path = public_path('images/' . $setting->visi_logo);
+            if (file_exists($path)) {
+                unlink($path);
+            }
+            $logo = $request->file('visi_logo');
+            $logo_name = $logo->getClientOriginalName();
+            $logo->move(public_path('images'), $logo_name);
+            $setting->visi_logo = $logo_name;
+        }
+
+        if ($request->hasFile('misi_logo')) {
+            $path = public_path('images/' . $setting->misi_logo);
+            if (file_exists($path)) {
+                unlink($path);
+            }
+            $logo = $request->file('misi_logo');
+            $logo_name = $logo->getClientOriginalName();
+            $logo->move(public_path('images'), $logo_name);
+            $setting->misi_logo = $logo_name;
+        }
+
         $setting->update([
             'site_name' => $request->site_name,
             'site_email' => $request->site_email,
+            'visi' => $request->visi,
+            'misi' => $request->misi,
         ]);
 
         return response()->json([
@@ -82,6 +111,7 @@ class SettingController extends Controller
             'redirect' => 'reload'
         ]);
     }
+
 
     public function update_user(Request $request)
     {

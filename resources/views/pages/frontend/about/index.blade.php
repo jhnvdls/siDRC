@@ -32,45 +32,45 @@
 
 
     <!-- Services Section Start -->
-    <div class="rs-services services-style5 black-bg2 pt-125 pb-130 md-pt-75 md-pb-80">
-        <div class="container">
-            <div class="row y-middle">
-                <div class="col-xl-6 col-md-6 xl-mb-30">
-                    <div class="services-item">
-                        <div class="services-wrap" style="height: 400px">
-                            <div class="services-img">
-                                <img src="frontend/images/services/style3/ser1.png" alt="Images">
-                            </div>
-                            <div class="services-content">
-                                <h2 class="title">VISI</h2>
-                                <p class="services-txt">Menjadi manusia yang bisa berbakti dan membahagiakan orang tua
-                                    dengan mendapatkan prestasi juara 1 di bidang keilmuan jurusan.</p>
+    @foreach ($setting as $item)
+
+        <div class="rs-services services-style5 black-bg2 pt-125 pb-130 md-pt-75 md-pb-80">
+            <div class="container">
+                <div class="row y-middle">
+                    <div class="col-xl-6 col-md-6 xl-mb-30">
+                        <div class="services-item">
+                            <div class="services-wrap" style="height: 400px">
+                                <div class="services-img">
+                                    <img src="{{asset('images/'. $item->visi_logo)}}" alt="Images">
+                                </div>
+                                <div class="services-content">
+                                    <h2 class="title">VISI</h2>
+                                    <p class="services-txt">{{$item->visi}}</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-xl-6 col-md-6 xl-mb-30">
-                    <div class="services-item">
-                        <div class="services-wrap" style="height: 400px">
-                            <div class="services-img">
-                                <img src="frontend/images/services/style3/ser2.png" alt="Images">
-                            </div>
-                            <div class="services-content">
-                                <h2 class="title">Misi</h2>
-                                <ul class="services-txt">
-                                    <li>Belajar setiap hari bukan menggunakan prinsip kebut semalam.</li>
-                                    <li>Selalu mengulang dan mempelajari materi yang disampaikan dosen.</li>
-                                    <li> Konsultasi ke dosen pembimbing mengenai sistem belajar yang baik atau meminta saran
-                                        ketika dalam kesulitan belajar.</li>
-                                    <li>Aktif mencari informasi lomba yang ada di internet.</li>
-                                </ul>
+                    <div class="col-xl-6 col-md-6 xl-mb-30">
+                        <div class="services-item">
+                            <div class="services-wrap" style="height: 400px">
+                                <div class="services-img">
+                                    <img src="{{asset('images/'. $item->misi_logo)}}" alt="Images">
+                                </div>
+                                <div class="services-content">
+                                    <h2 class="title">Misi</h2>
+                                    <ul class="services-txt">
+                                        <li>{{$item->misi}}</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+
+    @endforeach
+    
     <!-- Services Section End -->
 
     <div class="rs-contact contact-style2 contact-modfiy5 pt-130 md-pt-80">

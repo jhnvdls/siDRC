@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Frontend;
 
 use App\Models\Member;
 use App\Models\Message;
+use App\Models\Setting;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
@@ -17,7 +18,8 @@ class FrontController extends Controller
 
     public function about()
     {
-        return view('pages.frontend.about.index');
+        $setting = Setting::all();
+        return view('pages.frontend.about.index', compact('setting'));
     }
 
     public function sponsor()
