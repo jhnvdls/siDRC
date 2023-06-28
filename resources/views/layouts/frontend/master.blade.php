@@ -1,8 +1,3 @@
-
-The code you provided is missing the part where the modals are defined. Here's the corrected code that includes the modals:
-
-html
-Copy code
 <!DOCTYPE html>
 <html lang="en">
 
