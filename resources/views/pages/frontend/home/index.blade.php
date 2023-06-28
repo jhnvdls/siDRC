@@ -98,7 +98,8 @@
         </div>
         <div class="container">
             <!-- pils -->
-            <ul class="nav nav-pills">
+            <ul class="nav nav-pills justify-content-center">
+            <ul class="nav nav-pills justify-content-center">
                 <li class="nav-item">
                     <a href="#kbsrib" class="nav-link active" data-bs-toggle="pill">KRSBI beroda</a>
                 </li>
@@ -142,6 +143,9 @@
                                                 Robot Menuju Liga Sepakbola Robot Tahun 2050”. Aturan kontes KRSBI
                                                 mengadopsi MSL Rules and Regulation
                                             </p>
+
+
+
 
                                         </div>
                                     </div>
@@ -323,7 +327,7 @@
                         </div>
                     </div>
                     <div class="tab-pane fade" id="kbsrih">
-                        <div class="rs-about about-style1 pt-160 pb-160 md-pt-80 md-pb-75">
+                        <div class="rs-about about-style1 pt-160 pb-60 md-pt-80 md-pb-30">
                             <div class="container">
                                 <div class="row y-middle">
                                     <div class="col-lg-6 md-mb-50">
@@ -367,6 +371,274 @@
         </div>
     </div>
     <!-- Pricing End -->
+    			    
+<!-- Breadcrumbs Start -->
+<div class="rs-breadcrumbs img4">
+    <div class="container">
+        <div class="breadcrumbs-inner">
+            <div class="row y-middle">
+                <div class="col-lg-7">
+                    <div class="breadcrumbs-wrap mb-48 md-mb-0">
+                        <h2 class="page-title">
+                            DRC IT DEL Sponsorship
+                        </h2>
+                        <p class="description">Dalam mewujudkan cita-cita dan harapan kami untuk mengembangkan UKM Del Robotics Club, kami didukung oleh beberapa pihak atau entitas yang memberikan dukungan finansial, materi atau layanan. Kami memperoleh dana dengan mengajukan proposal secara resmi ketika hendak mengikuti Kontes Robot Indonesia.</p>
+                    </div>
+                    <div class="row">
+                        <!-- Images -->
+                        <div class="col-lg-3 col-md-6 mb-40">
+                            <div class="card">
+                                <div class="services-item">
+                                    <div class="services-wrap">
+                                        <div class="services-img">
+                                            <img src="{{ asset('images/tpl.png') }}" alt="Images" data-bs-toggle="modal" data-bs-target="#tplModal">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 mb-40">
+                            <div class="card">
+                                <div class="services-item">
+                                    <div class="services-wrap">
+                                        <div class="services-img">
+                                            <img src="{{ asset('images/inalum.png') }}" alt="Images" data-bs-toggle="modal" data-bs-target="#inalumModal">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-40">
+                            <div class="card">
+                                <div class="services-item">
+                                    <div class="services-wrap">
+                                        <div class="services-img">
+                                            <img src="{{ asset('images/hutahaean.png') }}" alt="Images" data-bs-toggle="modal" data-bs-target="#hutahaeanModal">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="about-img">
+                        <img src="{{ asset('images/Rectangle-10.png') }}" alt="Images">
+                    </div>
+                </div>
+            </div>
+            <div class="shape-animation">
+                <div class="dot-animate">
+                    <img class="scale" src="{{ asset('images/img2.png') }}" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Breadcrumbs End -->
+
+<!-- TPL Modal -->
+<div class="modal fade" id="tplModal" tabindex="-1" role="dialog" aria-labelledby="tplModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img style="width: 100%" id="modal-img-tpl" src="{{ asset('images/tpl.png') }}" alt="Modal Image">
+                {{-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> --}}
+            </div>
+            <div class="modal-body">
+                <h4 style="font-weight: bold" class="modal-title" id="tplModalLabel">Toba Pulp Lestari</h4>
+                <p style="margin-block-start: 30px">Toba Pulp Lestari adalah perusahaan penggilingan kertas asal Indonesia berdiri di Provinsi Sumatra Utara, Indonesia, pada tahun 1989 dan dimiliki oleh pengusaha asal Indonesia, Sukanto Tanoto. Pada awal mula berdirinya perusahaan ini bernama Inti Indorayon Utama dan memiliki kode saham INRU.</p>
+            </div>
+            <div class="modal-footer">
+                <button style="background-color: crimson" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Inalum Modal -->
+<div class="modal fade" id="inalumModal" tabindex="-1" role="dialog" aria-labelledby="inalumModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img style="width: 100%" id="modal-img-inalum" src="{{ asset('images/inalum.png') }}" alt="Modal Image" width="100%">
+                {{-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> --}}
+            </div>
+            <div class="modal-body">
+                <h4 style="font-weight: bold" class="modal-title" id="inalumModalLabel">Indonesia Asahan Aluminium (Inalum)</h4>
+                <p style="margin-block-start: 30px">PT Indonesia Asahan Aluminium atau biasa disingkat menjadi Inalum, adalah bagian dari MIND ID yang bergerak di bidang produksi aluminium. Hingga akhir tahun 2021, perusahaan ini adalah satu-satunya produsen aluminium di Indonesia, dengan kapasitas produksi mencapai 250.000 ton per tahun.</p>
+            </div>
+            <div class="modal-footer">
+                <button style="background-color: crimson" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Hutahaean Modal -->
+<div class="modal fade" id="hutahaeanModal" tabindex="-1" role="dialog" aria-labelledby="hutahaeanModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img style="width: 100%" id="modal-img-hutahaean" src="{{ asset('images/hutahaean.png') }}" alt="Modal Image" width="100%">
+                {{-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> --}}
+            </div>            
+            <div class="modal-body">
+                <h4 style="font-weight: bold" class="modal-title" id="hutahaeanModalLabel">Hutahaean Group</h4>
+                <p style="margin-block-start: 30px">Hutahaean Group adalah salah satu perusahaan perkebunan kelapa sawit hulu yang paling berpengalaman dan mapan di Provinsi Riau. Perusahaan ini memiliki lebih dari 30 tahun pengalaman industri perkebunan dan pengalaman pengelolaan perkebunan kelapa sawit. PT. Group Hutahaean terkonsentrasi di Proyek Perkebunan Kelapa Sawit, Pabrik Pengolahan Karet dan Kelapa Sawit. Kapasitas 60 TPH dan unit pengolahan limbah. Perkebunan ini terletak di Kabupaten Dalu-Dalu Tambusai Rokan Hulu Provinsi Riau.</p>
+            </div>
+            <div class="modal-footer">
+                <button style="background-color: crimson" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .modal-header img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card {
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+    }
+
+    .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .services-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .services-img img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+</style>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var modals = document.querySelectorAll('.modal');
+
+        modals.forEach(function(modal) {
+            modal.addEventListener('show.bs.modal', function(event) {
+                var button = event.relatedTarget;
+                var imgSrc = button.querySelector('img').getAttribute('src');
+                var modalImg = modal.querySelector('.modal-header img');
+                modalImg.setAttribute('src', imgSrc);
+            });
+        });
+    });
+
+</script>
+
+
+    <!-- Testimonial Section Start -->
+			<div id="rs-testimonial" class="rs-testimonial testimonial-style2 testimonial-modify1 testi-yellow-modify1 pt-120 pb-120 md-pt-60 md-pb-75">
+			    <div class="container custom"> 
+			    	<div class="sec-title2 text-center mb-55">
+			    		<h2 class="title title4">
+			    			What people's about<br>saying!
+			    		</h2>
+			    	</div>
+			        <div class="rs-carousel owl-carousel" data-loop="true" data-items="3" data-margin="30" data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800" data-dots="true" data-nav="false" data-nav-speed="false" data-center-mode="false" data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="false" data-ipad-device="2" data-ipad-device-nav="false" data-ipad-device-dots="true" data-ipad-device2="2" data-ipad-device-nav2="false" data-ipad-device-dots2="true" data-md-device="3" data-md-device-nav="false" data-md-device-dots="true">
+			            <div class="testimonial-item">
+			                <div class="testi-content">
+			                    <div class="image-wrap">
+			                    	<img src="frontend/images/testimonial/style1/testi1.png" alt="Testimonial">
+			                    </div>
+			                    <div class="testi-information">
+			                    	<div class="testi-name">Billu Gol</div>
+			                    	<span class="testi-title">CEO, Agrok Inc.</span>
+			                    </div>
+			                </div>
+			                <div class="item-content-basic">
+			                	<span>
+			                		<img class="normal-img" src="frontend/images/testimonial/style1/linkedin.png" alt="Testimonial">
+			                		<a href="https://id.linkedin.com/" target="_blank">
+			                		<img class="hover-logo" src="frontend/images/testimonial/style1/linkedin2.png" alt="Testimonial">
+                                </a>
+			                	</span>
+			                	<p>I love your system. Agency is both attractive and highly adaptable. Man, this thing is getting better and better as I learn more about it. I am so pleased with this product.</p>
+			                </div>
+			            </div>
+			            <div class="testimonial-item">
+			                <div class="testi-content">
+			                    <div class="image-wrap">
+			                    	<img src="frontend/images/testimonial/style1/testi2.png" alt="Testimonial">
+			                    </div>
+			                    <div class="testi-information">
+			                    	<div class="testi-name">Ani Jhon</div>
+			                    	<span class="testi-title">CEO, Apce.co</span>
+			                    </div>
+			                </div>
+			                <div class="item-content-basic">
+			                	<span>
+                                
+                                <img class="normal-img" src="frontend/images/testimonial/style1/linkedin.png" alt="Testimonial">
+			                		<a href="https://id.linkedin.com//" target="_blank">
+			                		<img class="hover-logo" src="frontend/images/testimonial/style1/linkedin2.png" alt="Testimonial">
+                                </a>
+			                	</span>
+			                	<p>I love your system. Agency is both attractive and highly adaptable. Man, this thing is getting better and better as I learn more about it. I am so pleased with this product.</p>
+			                </div>
+			            </div>
+			            <div class="testimonial-item">
+			                <div class="testi-content">
+			                    <div class="image-wrap">
+			                    	<img src="frontend/images/testimonial/style1/testi3.png" alt="Testimonial">
+			                    </div>
+			                    <div class="testi-information">
+			                    	<div class="testi-name">Mark Agroiks</div>
+			                    	<span class="testi-title">CEO, Agrok Inc.</span>
+			                    </div>
+			                </div>
+			                <div class="item-content-basic">
+			                	<span>
+			                		<img class="normal-img" src="frontend/images/testimonial/style1/linkedin.png" alt="Testimonial">
+			                		<a href="https://id.linkedin.com//" target="_blank">
+			                		<img class="hover-logo" src="frontend/images/testimonial/style1/linkedin2.png" alt="Testimonial">
+                                </a>
+			                	</span>
+			                	<p>I love your system. Agency is both attractive and highly adaptable. Man, this thing is getting better and better as I learn more about it. I am so pleased with this product.</p>
+			                </div>
+			            </div>
+			            <div class="testimonial-item">
+			                <div class="testi-content">
+			                    <div class="image-wrap">
+			                    	<img src="frontend/images/testimonial/style1/testi2.png" alt="Testimonial">
+			                    </div>
+			                    <div class="testi-information">
+			                    	<div class="testi-name">James Can</div>
+			                    	<span class="testi-title">CEO, Agrok Inc.</span>
+			                    </div>
+			                </div>
+			                <div class="item-content-basic">
+			                	<span>
+			                		<img class="normal-img" src="frontend/images/testimonial/style1/linkedin.png" alt="Testimonial">
+			                		<a href="https://id.linkedin.com/" target="_blank">
+			                		<img class="hover-logo" src="frontend/images/testimonial/style1/linkedin2.png" alt="Testimonial">
+                                </a>
+			                	</span>
+			                	<p>I love your system. Agency is both attractive and highly adaptable. Man, this thing is getting better and better as I learn more about it. I am so pleased with this product.</p>
+			                </div>
+			            </div>
+                    </div>
+			    </div>
+			<!-- Testimonial Section End -->
 
     <!-- Testimonial Section Start -->
     <div id="rs-testimonial" class="rs-testimonial testimonial-style1 pt-153 pb-100 md-pt-80 md-pb-50">
@@ -429,5 +701,6 @@
         </div>
         <!-- Partner End -->
     </div>
+
     <!-- Testimonial Section End -->
 @endsection
