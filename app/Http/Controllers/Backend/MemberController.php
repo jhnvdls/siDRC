@@ -8,6 +8,7 @@ use App\Models\Department;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
+use App\Models\Prodi;
 
 class MemberController extends Controller
 {
@@ -27,7 +28,8 @@ class MemberController extends Controller
     {
         $departments = Department::all();
         $positions = Position::all();
-        return view('pages.backend.member.create', compact('departments', 'positions'));
+        $prodis = Prodi::all();
+        return view('pages.backend.member.create', compact('departments', 'positions', 'prodis'));
     }
 
     /**
@@ -46,6 +48,7 @@ class MemberController extends Controller
             'linkedin' => 'nullable|string|max:255',
             'instagram' => 'nullable|string|max:255',
             'github' => 'nullable|string|max:255',
+            'prodi_id' => 'required|exists:prodis,id',
         ]);
 
         if ($validator->fails()) {
@@ -70,6 +73,7 @@ class MemberController extends Controller
             'linkedin' => $request->linkedin,
             'instagram' => $request->instagram,
             'github' => $request->github,
+            'prodi_id' => $request->prodi_id,
         ]);
 
         return response()->json([
@@ -111,6 +115,7 @@ class MemberController extends Controller
             'linkedin' => 'nullable|string|max:255',
             'instagram' => 'nullable|string|max:255',
             'github' => 'nullable|string|max:255',
+            'prodi_id' => 'required|exists:prodis,id',
         ]);
 
         if ($validator->fails()) {
@@ -143,6 +148,7 @@ class MemberController extends Controller
             'linkedin' => $request->linkedin,
             'instagram' => $request->instagram,
             'github' => $request->github,
+            'prodi_id' => $request->prodi_id,
         ]);
 
         return response()->json([

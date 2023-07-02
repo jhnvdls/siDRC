@@ -18,4 +18,10 @@ class Member extends Model
     {
         return $this->belongsTo(Position::class);
     }
+
+    //prodi
+    public function prodi()
+    {
+        return $this->belongsTo(Prodi::class);
+    }
 }

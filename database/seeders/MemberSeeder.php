@@ -13,6 +13,18 @@ class MemberSeeder extends Seeder
      */
     public function run(): void
     {
-        Member::factory(20)->create();
+        Member::create([
+            'department_id' => 1,
+            'position_id' => 1,
+            'prodi_id' => 1,
+            'name' => 'Jhon',
+            'nim' => 'ifs19001',
+            'email' => 'jhon@gmail',
+            'phone' => '08123456789',
+            'image' => 'java.png',
+            'linkedin' => 'https://www.linkedin.com/in/',
+            'instagram' => 'https://www.instagram.com/',
+            'github' => 'https://github.com/',
+        ]);
     }
 }

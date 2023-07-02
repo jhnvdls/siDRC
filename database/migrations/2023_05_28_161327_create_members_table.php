@@ -22,6 +22,7 @@ return new class extends Migration
             $table->string('image')->nullable();
             $table->string('linkedin')->nullable();
             $table->string('instagram')->nullable();
+            $table->foreignId('prodi_id')->constrained('prodis');
             $table->string('github')->nullable();
             $table->timestamps();
         });

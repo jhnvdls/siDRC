@@ -76,10 +76,11 @@
                                         data-kt-check-target="#member_table .form-check-input" value="1" />
                                 </div>
                             </th>
-                            <th class="min-w-100px">Name</th>
-                            <th class="min-w-100px">Department</th>
-                            <th class="min-w-100px">Position</th>
-                            <th class="text-end min-w-70px">Actions</th>
+                            <th class="min-w-100px" style="font-weight: bold; color: black">Name</th>
+                            <th class="min-w-100px" style="font-weight: bold; color: black">Department</th>
+                            <th class="min-w-100px" style="font-weight: bold; color: black">Position</th>
+                            <th class="min-w-100px" style="font-weight: bold; color: black">Prodi</th>
+                            <th class="text-end min-w-70px" style="font-weight: bold; color: black">Actions</th>
                         </tr>
                         <!--end::Table row-->
                     </thead>
@@ -115,19 +116,30 @@
                                 <!--begin::Department=-->
                                 <td>
                                     <div class="d-flex justify-content-start flex-column">
-                                        <span
-                                            class="text-muted fw-bold text-muted d-block fs-7">{{ $member->departement->name }}</span>
+                                        <span class="text-muted fw-bold text-muted d-block fs-7">
+                                            {{ $member->department ? $member->department->name : 'N/A' }}
+                                        </span>
                                     </div>
                                 </td>
                                 <!--end::Department=-->
                                 <!--begin::Position=-->
                                 <td>
                                     <div class="d-flex justify-content-start flex-column">
-                                        <span
-                                            class="text-muted fw-bold text-muted d-block fs-7">{{ $member->position->name }}</span>
+                                        <span class="text-muted fw-bold text-muted d-block fs-7">
+                                            {{ $member->position ? $member->position->name : 'N/A' }}
+                                        </span>
                                     </div>
                                 </td>
                                 <!--end::Position=-->
+                                <!--begin::Prodi=-->
+                                <td>
+                                    <div class="d-flex justify-content-start flex-column">
+                                        <span class="text-muted fw-bold text-muted d-block fs-7">
+                                            {{ $member->prodi ? $member->prodi->namaProdi : 'N/A' }}
+                                        </span>
+                                    </div>
+                                </td>
+                                <!--end::Prodi=-->
                                 <!--begin::Action=-->
                                 <td class="text-end">
                                     <a href="#" class="btn btn-sm btn-light btn-active-light-primary"
@@ -209,7 +221,7 @@
                                     },
                                     success: function(response) {
                                         Swal.fire({
-                                            text: "You have deleted an event!",
+                                            text: "You have deleted an member!",
                                             icon: "success",
                                             buttonsStyling:
                                                 !1,

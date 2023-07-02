@@ -35,6 +35,7 @@
     <form id="form_input" class="form d-flex flex-column flex-lg-row"
         data-kt-redirect="{{ route('backend.members.index') }}" action="{{ route('backend.members.store') }}" method="POST"
         enctype="multipart/form-data">
+        @csrf
         <!--begin::Aside column-->
         <div class="d-flex flex-column gap-7 gap-lg-10 w-100 w-lg-300px mb-7 me-lg-10">
             <!--begin::Thumbnail settings-->
@@ -193,6 +194,28 @@
                         <!--end::Description-->
                     </div>
                     <!--end::Input group-->
+
+                    <!--begin::Input group-->
+                    <div class="mb-10 fv-row">
+                        <!--begin::Label-->
+                        <label class="required form-label">Prodi</label>
+                        <!--end::Label-->
+                        <!--begin::Input-->
+                        <select name="prodi_id" class="form-select form-select-solid" data-control="select2"
+                            data-placeholder="Select option" data-allow-clear="true" data-hide-search="true">
+                            <option></option>
+                            @foreach ($prodis as $prodi)
+                                <option value="{{ $prodi->id }}">{{ $prodi->namaProdi }}</option>
+                            @endforeach
+                        </select>
+                        <!--end::Input-->
+                        <!--begin::Description-->
+                        <div class="text-muted fs-7">Enter the pordi for the member.
+                        </div>
+                        <!--end::Description-->
+                    </div>
+                    <!--end::Input group-->
+                    
                     <!--begin::Input group-->
                     <div class="mb-10 fv-row">
                         <!--begin::Label-->
