@@ -16,7 +16,7 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="team-img">
-                            <img class="js-tilt" src="frontend/images/breadcrumbs/images/team-image.png" alt="Images">
+                            <img class="js-tilt" src="/images/hero 4.png" alt="Images">
                         </div>
                     </div>
                 </div>

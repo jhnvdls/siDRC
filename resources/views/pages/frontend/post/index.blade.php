@@ -19,7 +19,7 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="main-img text-right md-text-center">
-                        <img src="{{ asset('images/blog.png') }}" alt="Images">
+                        <img src="{{ asset('images/hero 3.png') }}" alt="Images">
                     </div>
                 </div>
             </div>

@@ -22,7 +22,7 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="main-img text-right md-text-center">
-                        <img src="{{ asset('images/Group-122.png') }}" alt="Images">
+                        <img src="{{ asset('images/hero 1.png') }}" alt="Images">
                         {{-- <div class="main-img-bg1">
                             <img src="" alt="Images">
                         </div> --}}
@@ -128,7 +128,7 @@
                                     <div class="col-lg-6 md-mb-50">
                                         <div class="about-image-wrap">
                                             <div class="images-part">
-                                                <img src="{{ asset('images/Group-368.png') }}" alt="About">
+                                                <img src="{{ asset('images/KRSBI.png') }}" alt="About">
                                             </div>
                                         </div>
                                     </div>
@@ -171,7 +171,7 @@
                                     <div class="col-lg-6 md-mb-50">
                                         <div class="about-image-wrap">
                                             <div class="images-part">
-                                                <img src="{{ asset('images/Rectangle-1.png') }}" alt="About">
+                                                <img src="{{ asset('images/tab KRPAI.png') }}" alt="About">
                                             </div>
                                         </div>
                                     </div>
@@ -211,7 +211,7 @@
                                     <div class="col-lg-6 md-mb-50">
                                         <div class="about-image-wrap">
                                             <div class="images-part">
-                                                <img src="{{ asset('images/Rectangle-10.png') }}" alt="About">
+                                                <img src="{{ asset('images/tab_KRBAI.png') }}" alt="About">
                                             </div>
                                         </div>
                                     </div>
@@ -292,7 +292,7 @@
                                     <div class="col-lg-6 md-mb-50">
                                         <div class="about-image-wrap">
                                             <div class="images-part">
-                                                <img src="{{ asset('images/Rectangle-8.png') }}" alt="About">
+                                                <img src="{{ asset('images/tab KRTMI.png') }}" alt="About">
                                             </div>
                                         </div>
                                     </div>
