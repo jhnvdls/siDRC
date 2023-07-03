@@ -30,6 +30,48 @@
     </div>
     <!-- Breadcrumbs End -->
 
+  <!-- Chart Start -->
+<div class="rs-chart chart-style1 pt-160 pb-160 md-pt-80 md-pb-75">
+    <div class="container">
+        <div class="row y-middle">
+            <div class="col-lg-6 md-mb-50">
+                <h2>
+                    <span class="watermark">Persentase Prodi Member DRC</span>
+                </h2>
+                <div class="about-image-wrap">
+                    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+                    <script type="text/javascript">
+                    google.charts.load('current', {'packages':['corechart']});
+                    google.charts.setOnLoadCallback(drawChart);
+
+                    function drawChart() {
+                            var data = new google.visualization.DataTable();
+                            data.addColumn('string', 'Prodi');
+                            data.addColumn('number', 'Jumlah Member');
+                            data.addRows({!! $chart_data !!});
+
+                            var options = {
+                                title: 'Range : Prodi to Members',
+                                is3D: true,
+                            };
+
+                        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+                        chart.draw(data, options);
+                    }
+                    </script>
+                    <div id="piechart" style="width: 900px; height: 500px;"></div>
+                </div>
+            </div>
+            <div class="col-lg-6 pl-30 md-pl-15">
+                <div class="sec-title">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Chart End -->
+
     <!-- Team Start -->
     <div class="rs-team team-style1 pt-150 pb-150 md-pt-80 md-pb-80">
         <div class="container">
