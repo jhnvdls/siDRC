@@ -16,7 +16,7 @@
                             </p>
                         </div>
                         <ul class="banner-bottom">
-                            <li><a class="readon started" href="javascript:;">Explore</a></li>
+                            <li><a class="readon started" href="/about">Explore</a></li>
                         </ul>
                     </div>
                 </div>
@@ -62,14 +62,14 @@
                         <h2 class="title">
                             Apa itu, Robotika?
                         </h2>
-                        <p class="desc">
+                        <p style="margin-top: 30px" class="desc">
                             Robotika adalah satu cabang teknologi yang berhubungan dengan desain, konstruksi, operasi,
                             disposisi struktural, pembuatan, dan aplikasi dari robot. Robotika terkait dengan ilmu
                             pengetahuan bidang elektronika, mesin, mekanika, dan perangkat lunak komputer.
                         </p>
                         <!-- Counter End -->
                         <div class="btn-part mt-46">
-                            <a class="readon leran" href="about.html">Learn More</a>
+                            <a class="readon leran" target="_blank" href="https://kontesrobotindonesia.id/index.html">Pelajari Selengkapnya</a>
                         </div>
                     </div>
                 </div>
@@ -90,7 +90,7 @@
     <!-- About End -->
 
     <!-- Pricing Start -->
-    <div class="pricing-container rs-pricing-container pricing-style1 bg4 pt-153 pb-160 md-pt-75 md-pb-80">
+    <div class="pricing-container rs-pricing-container pricing-style1 bg4 pt-153 pb-80 md-pt-75 md-pb-80">
         <div class="sec-title text-center mb-55 md-mb-35">
             <h2 class="title">
                 KONTES ROBOT INDONESIA
@@ -551,96 +551,112 @@
 			    <div class="container custom"> 
 			    	<div class="sec-title2 text-center mb-55">
 			    		<h2 class="title title4">
-			    			What people's about<br>saying!
+			    			Apa Kata Alumni Kami?
 			    		</h2>
 			    	</div>
 			        <div class="rs-carousel owl-carousel" data-loop="true" data-items="3" data-margin="30" data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800" data-dots="true" data-nav="false" data-nav-speed="false" data-center-mode="false" data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="false" data-ipad-device="2" data-ipad-device-nav="false" data-ipad-device-dots="true" data-ipad-device2="2" data-ipad-device-nav2="false" data-ipad-device-dots2="true" data-md-device="3" data-md-device-nav="false" data-md-device-dots="true">
 			            <div class="testimonial-item">
 			                <div class="testi-content">
 			                    <div class="image-wrap">
-			                    	<img src="frontend/images/testimonial/style1/testi1.png" alt="Testimonial">
+			                    	<img src="images/testimonidrc1.jpeg" alt="Testimonial">
 			                    </div>
 			                    <div class="testi-information">
-			                    	<div class="testi-name">Billu Gol</div>
-			                    	<span class="testi-title">CEO, Agrok Inc.</span>
+			                    	<div class="testi-name">Irvan Saragi</div>
+			                    	<span class="testi-title">iOS Developer, Apple Developer Academy</span>
 			                    </div>
 			                </div>
 			                <div class="item-content-basic">
 			                	<span>
 			                		<img class="normal-img" src="frontend/images/testimonial/style1/linkedin.png" alt="Testimonial">
-			                		<a href="https://id.linkedin.com/" target="_blank">
+			                		<a href="https://www.linkedin.com/in/irvan-saragi-771004128/" target="_blank">
 			                		<img class="hover-logo" src="frontend/images/testimonial/style1/linkedin2.png" alt="Testimonial">
                                 </a>
 			                	</span>
-			                	<p>I love your system. Agency is both attractive and highly adaptable. Man, this thing is getting better and better as I learn more about it. I am so pleased with this product.</p>
+			                	<p>Selama saya bergabung dalam Del Robotics Club, saya dapat memperdalam ilmu elektronika dan robotika. Koneksi saya semakin luas dan saya terbiasa untuk hidup kompetitif dan mampu bekerja dalam tim.</p>
 			                </div>
 			            </div>
 			            <div class="testimonial-item">
 			                <div class="testi-content">
 			                    <div class="image-wrap">
-			                    	<img src="frontend/images/testimonial/style1/testi2.png" alt="Testimonial">
+			                    	<img src="images/testimonidrc2.jpeg" alt="Testimonial">
 			                    </div>
 			                    <div class="testi-information">
-			                    	<div class="testi-name">Ani Jhon</div>
-			                    	<span class="testi-title">CEO, Apce.co</span>
+			                    	<div class="testi-name">Andi Pranata</div>
+			                    	<span class="testi-title">QA Engineer, Telkom Indonesia</span>
 			                    </div>
 			                </div>
 			                <div class="item-content-basic">
 			                	<span>
                                 
                                 <img class="normal-img" src="frontend/images/testimonial/style1/linkedin.png" alt="Testimonial">
-			                		<a href="https://id.linkedin.com//" target="_blank">
+			                		<a href="https://www.linkedin.com/in/andi-pranata/" target="_blank">
 			                		<img class="hover-logo" src="frontend/images/testimonial/style1/linkedin2.png" alt="Testimonial">
                                 </a>
 			                	</span>
-			                	<p>I love your system. Agency is both attractive and highly adaptable. Man, this thing is getting better and better as I learn more about it. I am so pleased with this product.</p>
-			                </div>
+                                    <p>Melalui Del Robotics Club saya saya mampu mengasah skill saya mulai dari tidak tahu apa-apa hingga mampu ikut lomba di kancah regional dan nasional. Saya bisa berkolaborasi dengan mahasiswa dari prodi lain dan mampu bekerja dengan baik dalam tim.</p>
+                            </div>
 			            </div>
 			            <div class="testimonial-item">
 			                <div class="testi-content">
 			                    <div class="image-wrap">
-			                    	<img src="frontend/images/testimonial/style1/testi3.png" alt="Testimonial">
+			                    	<img src="images/testimonidrc3.jpeg" alt="Testimonial">
 			                    </div>
 			                    <div class="testi-information">
-			                    	<div class="testi-name">Mark Agroiks</div>
-			                    	<span class="testi-title">CEO, Agrok Inc.</span>
+			                    	<div class="testi-name">Surya Silalahi</div>
+			                    	<span class="testi-title">IT Specialist at Bank Central Asia</span>
 			                    </div>
 			                </div>
 			                <div class="item-content-basic">
 			                	<span>
 			                		<img class="normal-img" src="frontend/images/testimonial/style1/linkedin.png" alt="Testimonial">
-			                		<a href="https://id.linkedin.com//" target="_blank">
+			                		<a href="https://www.linkedin.com/in/surya-silalahi/" target="_blank">
 			                		<img class="hover-logo" src="frontend/images/testimonial/style1/linkedin2.png" alt="Testimonial">
                                 </a>
 			                	</span>
-			                	<p>I love your system. Agency is both attractive and highly adaptable. Man, this thing is getting better and better as I learn more about it. I am so pleased with this product.</p>
-			                </div>
+                                    <p>Dalam UKM Del Robotics Club saya terlatih bekerja dalam tim, mampu bekerja di bawah tekanan dengan deadline yang padat, serta melatih sikap kepemimpinan saya.</p>
+                            </div>
 			            </div>
 			            <div class="testimonial-item">
 			                <div class="testi-content">
 			                    <div class="image-wrap">
-			                    	<img src="frontend/images/testimonial/style1/testi2.png" alt="Testimonial">
+			                    	<img src="images/testimonidrc4.jpeg" alt="Testimonial">
 			                    </div>
 			                    <div class="testi-information">
-			                    	<div class="testi-name">James Can</div>
-			                    	<span class="testi-title">CEO, Agrok Inc.</span>
+			                    	<div class="testi-name">Sherina Purba</div>
+			                    	<span class="testi-title">SAP Technical, PT. Agata Jonle Indonesia</span>
 			                    </div>
 			                </div>
 			                <div class="item-content-basic">
 			                	<span>
 			                		<img class="normal-img" src="frontend/images/testimonial/style1/linkedin.png" alt="Testimonial">
-			                		<a href="https://id.linkedin.com/" target="_blank">
+			                		<a href="https://www.linkedin.com/in/sherinajp/" target="_blank">
 			                		<img class="hover-logo" src="frontend/images/testimonial/style1/linkedin2.png" alt="Testimonial">
                                 </a>
 			                	</span>
-			                	<p>I love your system. Agency is both attractive and highly adaptable. Man, this thing is getting better and better as I learn more about it. I am so pleased with this product.</p>
-			                </div>
+                                    <p>Semenjak bergabung di Del Robotics Club saya menjadi pribadi yang gigih dalam belajar dan memiliki jiwa kompetitif yang tinggi. Saya terlatih untuk hidup disiplin dan mampu memanajemen waktu dengan baik.</p>
+                            </div>
 			            </div>
                     </div>
 			    </div>
 			<!-- Testimonial Section End -->
 
-    <!-- Testimonial Section Start -->
+                {{-- map --}}
+            <div class="rs-contact contact-style2 contact-modfiy5 pt-100 md-pt-80">
+                <div class="container">
+                    <div class="map-canvas pt-130 md-pt-80">
+                        <div class="sec-title2 text-center mb-55">
+                            <h2 class="title title4">
+                                Temukan Kami
+                            </h2>
+                        </div>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.3673457470372!2d99.14605787488244!3d2.3832151975961144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x302e00fdad2d7341%3A0xf59ef99c591fe451!2sInstitut%20Teknologi%20Del!5e0!3m2!1sid!2sid!4v1687533715892!5m2!1sid!2sid"
+                            width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+    {{-- <!-- Testimonial Section Start -->
     <div id="rs-testimonial" class="rs-testimonial testimonial-style1 pt-153 pb-100 md-pt-80 md-pb-50">
         <!-- Partner Start -->
         <div class="rs-partner partner-main-home pt-20">
@@ -700,7 +716,7 @@
             </div>
         </div>
         <!-- Partner End -->
-    </div>
+    </div> --}}
 
     <!-- Testimonial Section End -->
 @endsection

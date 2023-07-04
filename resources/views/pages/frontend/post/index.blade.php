@@ -1,30 +1,50 @@
 @extends('layouts.frontend.master')
 @section('content')
-    <div class="rs-banner banner-main-home">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7">
-                    <div class="content-wrap">
-                        <h1 class="title"><span style="color: #2192FF">
-                                Del Robotics Club
-                            </span> <span style="color: #2F327D">Publication</span></h1>
-                        <div class="description">
-                            <p style="font-size: 22px">
-                                “A robot may not injure a human being, or, through inaction, allow human being to come to
-                                harm”
-                            </p>
-                            <span style="font-size: 22px; color: #696984; margin-top:0">Isaac Asimov (1920-1992)</span>
-                        </div>
+<style>
+    .main-img {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        height: auto;
+    }
+
+    .main-img img {
+        max-width: 100%;
+        height: auto;
+        margin-top: 15%;
+    }
+
+    .content-wrap{
+        margin-top: -20%;
+    }
+</style>
+
+<div class="rs-banner banner-main-home">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7">
+                <div class="content-wrap">
+                    <h1 class="title">
+                        <span style="color: #2192FF">Del Robotics Club</span>
+                        <span style="color: #2F327D">Publication</span>
+                    </h1>
+                    <div class="description">
+                        <p style="font-size: 22px">
+                            “A robot may not injure a human being, or, through inaction, allow a human being to come to harm”
+                        </p>
+                        <span style="font-size: 22px; color: #696984; margin-top: 0">Isaac Asimov (1920-1992)</span>
                     </div>
                 </div>
-                <div class="col-lg-5">
-                    <div class="main-img text-right md-text-center">
-                        <img src="{{ asset('images/hero 3.png') }}" alt="Images">
-                    </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="main-img">
+                    <img src="{{ asset('images/coba blog.png') }}" alt="Images">
                 </div>
             </div>
         </div>
     </div>
+</div>
+
 
     <!-- Blog Section Start -->
     <div class="rs-inner-blog pt-120 pb-120 md-pt-80 md-pb-80">

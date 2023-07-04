@@ -1,17 +1,22 @@
 @extends('layouts.frontend.master')
 @section('content')
     <!-- Breadcrumbs Start -->
-    <div class="rs-breadcrumbs img9">
+    <div class="rs-breadcrumbs img9" style="margin-block-end: -10%">
         <div class="container">
             <div class="breadcrumbs-inner project-inner-style1">
                 <div class="row y-middle">
                     <div class="col-lg-6 md-mb-50">
-                        <div class="breadcrumbs-wrap">
+                        <div class="breadcrumbs-wrap" style="margin-top: -50%">
                             <h1 class="page-title">
                                 <span style="color: #2F327D">Events</span> <span style="color: #2192FF">
                                     Del Robotics Club
                                 </span>
                             </h1>
+                            <div class="description">
+                                <p style="font-size: 22px">
+                                    Text Here
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-6">

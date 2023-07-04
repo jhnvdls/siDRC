@@ -94,27 +94,23 @@
                     <a href="{{ route('home') }}">
                         <img src="images/Logo.png" alt="logo"></a>
                 </div>
-                <div class="offcanvas-text">
-                    <p>Suspendisse interdum consectetur libero id. Fermentum leo vel orci porta non. Euismod
-                        viverra nibh cras pulvinar suspen.</p>
-                </div>
                 <div class="canvas-contact rs-contact contact-style2 contact-modfiy5">
                     <div class="content-wrap">
-                        <h2 class="widget-title">Kritik dan Saran</h2>
+                        <h4 class="widget-title">Kritik dan Saran</h4>
                         <form id="contact-form" method="post" action="{{ route('message') }}">
                             <fieldset>
                                 <div class="row">
-                                    <div class="col-lg-12 mb-30">
+                                    <div class="col-lg-12 mb-10">
                                         <label>Name</label>
                                         <input class="from-control" type="text" id="name" name="name"
                                             placeholder="Enter Your name">
                                     </div>
-                                    <div class="col-lg-12 mb-30">
+                                    <div class="col-lg-12 mb-10">
                                         <label>Email</label>
                                         <input class="from-control" type="text" id="email" name="email"
                                             placeholder="Enter your email address">
                                     </div>
-                                    <div class="col-lg-12 mb-30">
+                                    <div class="col-lg-12 mb-10">
                                         <label> How can we help you?</label>
                                         <textarea class="from-control" id="message" name="message" placeholder="Type your messags here"></textarea>
                                     </div>

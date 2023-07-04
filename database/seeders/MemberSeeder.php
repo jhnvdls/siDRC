@@ -13,19 +13,6 @@ class MemberSeeder extends Seeder
      */
     public function run(): void
     {
-        Member::create([
-            'department_id' => 1,
-            'position_id' => 2,
-            'prodi_id' => 1,
-            'name' => 'Jhon Videlis Simamora',
-            'nim' => '11S18023',
-            'email' => 'jhonvidelis@gmail.com',
-            'phone' => '08123456789',
-            'image' => 'java.png',
-            'linkedin' => 'https://www.linkedin.com/in/',
-            'instagram' => 'https://www.instagram.com/',
-            'github' => 'https://github.com/',
-        ]);
         
         Member::create([
                 'department_id' => 1,
@@ -35,17 +22,32 @@ class MemberSeeder extends Seeder
                 'nim' => '14S20020',
                 'email' => 'simbolondaniel007@gmail.com',
                 'phone' => '081320585103',
-                'image' => 'java.png',
+                'image' => 'danielsimbolon.jpeg',
                 'linkedin' => 'https://www.linkedin.com/in/',
                 'instagram' => 'https://www.instagram.com/',
                 'github' => 'https://github.com/',
+        ]);
+
+        
+        Member::create([
+            'department_id' => 1,
+            'position_id' => 2,
+            'prodi_id' => 4,
+            'name' => 'Paul M P Nainggolan',
+            'nim' => '13320023',
+            'email' => 'paulnainggolan2012@gmail.com',
+            'phone' => '085270421752',
+            'image' => 'paulktl.png',
+            'linkedin' => 'https://www.linkedin.com/in/paulnainggolan/',
+            'instagram' => 'https://www.instagram.com/',
+            'github' => 'https://github.com/paulmartin20',
         ]);
 
         Member::create([
             'department_id' => 1,
             'position_id' => 3,
             'prodi_id' => 4,
-            'name' => 'Maruli Agustina Siagian',
+            'name' => 'Maruli A Siagian',
             'nim' => '13320056',
             'email' => 'tinasiagian121@gmail.com',
             'phone' => '082168263475',
@@ -64,6 +66,20 @@ class MemberSeeder extends Seeder
             'email' => 'agungpane07@gmail.com',
             'phone' => '082165714717',
             'image' => 'agungTE.png',
+            'linkedin' => 'https://www.linkedin.com/in/',
+            'instagram' => 'https://www.instagram.com/',
+            'github' => 'https://github.com/',
+        ]);
+
+        Member::create([
+            'department_id' => 1,
+            'position_id' => 2,
+            'prodi_id' => 1,
+            'name' => 'Jhon Videlis Simamora',
+            'nim' => '11S18023',
+            'email' => 'jhonvidelis@gmail.com',
+            'phone' => '08123456789',
+            'image' => 'jhon.jpeg',
             'linkedin' => 'https://www.linkedin.com/in/',
             'instagram' => 'https://www.instagram.com/',
             'github' => 'https://github.com/',
@@ -127,20 +143,6 @@ class MemberSeeder extends Seeder
 
         Member::create([
             'department_id' => 1,
-            'position_id' => 2,
-            'prodi_id' => 4,
-            'name' => 'Paul Martin Parsaulian Nainggolan',
-            'nim' => '13320023',
-            'email' => 'paulnainggolan2012@gmail.com',
-            'phone' => '085270421752',
-            'image' => 'paulktl.png',
-            'linkedin' => 'https://www.linkedin.com/in/paulnainggolan/',
-            'instagram' => 'https://www.instagram.com/',
-            'github' => 'https://github.com/paulmartin20',
-        ]);
-
-        Member::create([
-            'department_id' => 1,
             'position_id' => 7,
             'prodi_id' => 5,
             'name' => 'Joi Diego Napitupulu',
@@ -157,7 +159,7 @@ class MemberSeeder extends Seeder
             'department_id' => 1,
             'position_id' => 7,
             'prodi_id' => 3,
-            'name' => 'Michael Natanael Panjaitan',
+            'name' => 'Michael N Panjaitan',
             'nim' => '14S22022',
             'email' => 'michaelpjtn07@gmail.com',
             'phone' => '083876413507',
@@ -175,7 +177,7 @@ class MemberSeeder extends Seeder
             'nim' => '14S21034',
             'email' => 'stefenagaz@gmail.com',
             'phone' => '081381802153',
-            'image' => 'java.png',
+            'image' => 'stefen.jpeg',
             'linkedin' => 'https://www.linkedin.com/in/stefen-sinaga-06bb5727a',
             'instagram' => 'https://www.instagram.com/',
             'github' => 'https://github.com/',

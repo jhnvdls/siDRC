@@ -10,8 +10,8 @@
                             <h1 class="page-title">
                                 Meet Our Team
                             </h1>
-                            <p class="description">This very extraordinary feature, can make learning activities more
-                                efficient</p>
+                            <p class="description">"Kerja tim adalah kemampuan untuk bekerja sama menuju visi bersama. Kemampuan untuk mengarahkan pencapaian individu ke arah tujuan organisasi. Ini adalah bahan bakar yang memungkinkan orang biasa untuk mencapai hasil yang tidak biasa. " 
+                                - Andrew Carnegie</p>
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -33,11 +33,13 @@
   <!-- Chart Start -->
 <div class="rs-chart chart-style1 pt-160 pb-160 md-pt-80 md-pb-75">
     <div class="container">
+        <div class="sec-title2 text-center mb-55">
+            <h2 class="title title4">
+                Persentase Prodi Member DRC
+            </h2>
+        </div>
         <div class="row y-middle">
             <div class="col-lg-6 md-mb-50">
-                <h2>
-                    <span class="watermark">Persentase Prodi Member DRC</span>
-                </h2>
                 <div class="about-image-wrap">
                     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
                     <script type="text/javascript">
@@ -73,8 +75,13 @@
 <!-- Chart End -->
 
     <!-- Team Start -->
-    <div class="rs-team team-style1 pt-150 pb-150 md-pt-80 md-pb-80">
+    <div class="rs-team team-style1 pt-100 pb-100 md-pt-80 md-pb-80">
         <div class="container">
+            <div class="sec-title2 text-center mb-55">
+                <h2 class="title title4">
+                    Member DRC Periode 2023
+                </h2>
+            </div>
             <div class="row">
                 @foreach ($members as $member)
                     <div class="col-xl-3 col-md-6 mb-30">
