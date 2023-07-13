@@ -1,4 +1,11 @@
 @extends('layouts.frontend.master')
+<style>
+    .img-cover{
+        width: 100%; 
+        height: 150px;
+        object-fit : cover;
+    }
+</style>
 @section('content')
     <!-- Breadcrumbs Start -->
     <div class="rs-breadcrumbs img5">
@@ -91,7 +98,7 @@
                                     <a href="javascript:;"
                                         onclick="handle_open_modal('{{ route('member.show', $member->id) }}', '#customModal', 'GET')">
                                         <img src="{{ asset('images/members/' . $member->image) }}" alt="Images"
-                                            style="width: 100%; height: 150px">
+                                            style="" class="img-cover">
                                     </a>
                                 </div>
                                 <div class="team-content">
