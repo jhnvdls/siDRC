@@ -16,7 +16,7 @@
                             </p>
                         </div>
                         <ul class="banner-bottom">
-                            <li><a class="readon started" href="/about">Explore</a></li>
+                            <li><a class="readon started" href="https://forms.gle/uTyW9M9YsNsGrxF36" target="_blank">Join Us</a></li>
                         </ul>
                     </div>
                 </div>
@@ -69,7 +69,8 @@
                         </p>
                         <!-- Counter End -->
                         <div class="btn-part mt-46">
-                            <a class="readon leran" target="_blank" href="https://kontesrobotindonesia.id/index.html">Pelajari Selengkapnya</a>
+                            <!-- <a class="readon started" href="/about" target="_blank">Pelajari Selengkapnya</a>  -->
+                        <a class="readon leran" target="_blank" href="https://kontesrobotindonesia.id/index.html">Pelajari Selengkapnya</a>
                         </div>
                     </div>
                 </div>

@@ -67,6 +67,65 @@
                     </div>
                 </div>
             </div>
+
+            
+
+            <div class="container p-5 mt-5">
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">
+                        <div class="text-light text-center">
+                            <h1 class="text-light">Prestasi</h1>
+                            <p class="fw-bold fst-italic">Prestasi yang pernah didapatkan oleh tim Del Robotic Club semenjak klub ini didirikan pada tahun 2009. Prestasi yang pernah didapatkan bukan hanya dari regional ataupun Nasional, namun telah sampai hingga jenjang Internasional.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="p-5">
+                    <div class="card bg-transparent border-end-0 border-start-0 border-bottom-0 border-5 border-white py-3">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <p class="text-light">September, 2022 - November, 2022</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p class="fw-bold" style="color:yellow;">2nd Place Open Challenge</p>
+                                <p style="color: rgb(211, 231, 229);">The Robot World Cup Initiative is an attempt to foster AI and intelligent robotic research by providing a standard problem, playing soccer, where wide range of technologies can be integrated and examined.</p>
+                                <p class="fw-bold text-light">Robocup Asia Pacific</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-5">
+                    <div class="card bg-transparent border-end-0 border-start-0 border-bottom-0 border-5 border-white py-3">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <p class="text-light">Agustus, 2020 - Oktober, 2020</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p class="fw-bold" style="color:yellow;">3rd Place Regional II</p>
+                                <p style="color: rgb(211, 231, 229);">Kontes Robot Indonesia (KRI) adalah kegiatan kompetisi tahunan mahasiswa dalam bidang rancang bangun dan rekayasa robotika yang dapat diikuti oleh seluruh mahasiswa pada perguruan tinggi di  wilayah Republik Indonesia, dari berbagai K/L atau kedinasan, yang tercatat pada Pangkalan Data Pendidikan TInggi.</p>
+                                <p class="fw-bold text-light">Indonesia Robotic Contest</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-5">
+                    <div class="card bg-transparent border-end-0 border-start-0 border-bottom-0 border-5 border-white py-3">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <p class="text-light">Januari, 2019 - Juni, 2019</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p class="fw-bold" style="color:yellow;">1st Place National Scale</p>
+                                <p style="color: rgb(211, 231, 229);">Kontes Robot Indonesia (KRI) adalah kegiatan kompetisi tahunan mahasiswa dalam bidang rancang bangun dan rekayasa robotika yang dapat diikuti oleh seluruh mahasiswa pada perguruan tinggi di  wilayah Republik Indonesia, dari berbagai K/L atau kedinasan, yang tercatat pada Pangkalan Data Pendidikan TInggi.</p>
+                                <p class="fw-bold text-light">Indonesia Robotic Contest</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
     @endforeach
